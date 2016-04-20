@@ -12,5 +12,4 @@ int main(int argc, char const *argv[])
 	printf("big = %ld and not %hd\n",big,big);
 	printf("verybig = %lld and not %ld\n",verybig,verybig);
 
-	return 0;
-}
+	return 0;}
