@@ -10,7 +10,13 @@ int main(int argc, char const *argv[])
 	double bills[SIZE];
 	double * ptf;
 
-	pti = date; // 把数组地址赋给指针
+	pti = dates; // 把数组地址赋给指针
 	ptf = bills;
+
+	printf("%23s %15s \n","short","double");
+	for (index = 0; index < SIZE; index++)
+	{
+		printf("pointers + %d: %10p %10p\n", index,pti + index,ptf + index);
+	}
 	return 0;
 }
