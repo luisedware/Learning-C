@@ -2,6 +2,10 @@
 /* 如果不能使用%zd，请使用%u或%lu */
 #include <stdio.h>
 #define SIZE 10
+/*
+	函数sum()使用一个指针参量来确定数组的开始点，使用一个整数参量来指明数组
+	的元素个数，但是这并不是向函数传递数组信息的唯一方法。
+ */
 int sum(int array[], int n);
 
 int main(int argc, char const *argv[])
